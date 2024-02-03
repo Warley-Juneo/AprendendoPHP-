@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+html,
+body {
+    min-height: 100vh;
+    /* background-color: darkgray; */
+    background-color: #ffffff;
+}
+
+
+.navbar {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+.navbar-collapse {
+    flex-grow: initial;
+    flex-basis: 0%;
+}
+
+.feature {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px 0;
+    /* position: absolute; */
+    bottom: 0;
+    width: 100%;
+}
